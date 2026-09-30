@@ -58,9 +58,9 @@
     <linkfile dest="tools/bazel" src="google/common/tools/bazel.sh" />
     <linkfile dest="tools/build_dist.sh" src="google/common/tools/build_dist.sh" />
     <linkfile dest="tools/build_compile_commands.sh" src="google/common/tools/build_compile_commands.sh" />
-    <linkfile dest="update_symbol_list.sh" src="google/common/update_symbol_list.sh" />
-    <linkfile dest="download_prebuilts.py" src="google/common/scripts/download_prebuilts.py" />
-    <linkfile dest="run_kunit_tests_on_device.sh" src="google/common/scripts/run_kunit_tests_on_device.sh" />
+    <linkfile dest="update_symbol_list.sh" src="google/common/tools/update_symbol_list.sh" />
+    <linkfile dest="download_prebuilts.py" src="google/common/tools/download_prebuilts.py" />
+    <linkfile dest="run_kunit_tests_on_device.sh" src="google/common/tools/run_kunit_tests_on_device.sh" />
     <linkfile dest="build_raviole.sh" src="google/raviole/build_raviole.sh" />
     <linkfile dest="build_bluejay.sh" src="google/bluejay/build_bluejay.sh" />
     <linkfile dest="build_pantah.sh" src="google/pantah/build_pantah.sh" />
