@@ -48,7 +48,7 @@
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" remote="aosp" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" remote="aosp" />
 
-  <project path="manifest" name="kernel_google_gs-6.6_manifest" remote="cs"/>
+  <project path="manifest" name="kernel_google_gs-6.6_manifest" remote="cs" revision="refs/heads/main"/>
   <project path="prebuilts/gki" name="LineageOS/android_kernel_google_gs-6.6_prebuilts_gki" clone-depth="1" />
   <project path="private/devices" name="kernel_google_gs-6.6_devices" remote="cs">
     <linkfile dest="AGENTS.md" src="google/common/workspace/root.AGENTS.md" />
